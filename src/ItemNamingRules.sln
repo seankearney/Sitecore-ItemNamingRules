@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemNamingRules", "ItemNamingRules\ItemNamingRules.csproj", "{EAEB63B0-F73D-45CE-93ED-8BE129FA3E99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{DB8C9B3C-638A-4BA0-9EB1-E4B3ADC87521}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\.gitattributes = ..\.gitattributes
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Sitecore.Master", "Sitecore.Master\Sitecore.Master.scproj", "{92D5EE43-EE6F-48E9-B2B3-93C524D001A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAEB63B0-F73D-45CE-93ED-8BE129FA3E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAEB63B0-F73D-45CE-93ED-8BE129FA3E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAEB63B0-F73D-45CE-93ED-8BE129FA3E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAEB63B0-F73D-45CE-93ED-8BE129FA3E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92D5EE43-EE6F-48E9-B2B3-93C524D001A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92D5EE43-EE6F-48E9-B2B3-93C524D001A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92D5EE43-EE6F-48E9-B2B3-93C524D001A0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{92D5EE43-EE6F-48E9-B2B3-93C524D001A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92D5EE43-EE6F-48E9-B2B3-93C524D001A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92D5EE43-EE6F-48E9-B2B3-93C524D001A0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
