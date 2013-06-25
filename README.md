@@ -1,0 +1,2 @@
+Sitecore-ItemNamingRules
+========================
