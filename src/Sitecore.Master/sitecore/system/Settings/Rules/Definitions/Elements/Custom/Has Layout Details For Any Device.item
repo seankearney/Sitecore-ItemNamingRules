@@ -1,40 +1,40 @@
 ----item----
 version: 1
-id: {1057C235-C5C0-4EB7-8F77-EA51EB9E20EE}
+id: {1AEE16C7-F2C1-4C27-9790-63A4F0E3D2AF}
 database: master
-path: /sitecore/system/Settings/Rules
-parent: {087E1EA5-6280-4575-9E70-85B588DB91B2}
-name: Rules
+path: /sitecore/system/Settings/Rules/Definitions/Elements/Custom/Has Layout Details For Any Device
+parent: {79DFCC52-A071-4411-AF49-C0BD6DCAAE77}
+name: Has Layout Details For Any Device
 master: {00000000-0000-0000-0000-000000000000}
-template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
-templatekey: Folder
+template: {F0D16EEE-3A05-4E43-A082-795A32B873C0}
+templatekey: Condition
 
 ----field----
-field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
-name: __Icon
-key: __icon
-content-length: 28
+field: {AB51C8B2-F0E1-4471-9AAE-CC080D774923}
+name: Type
+key: type
+content-length: 116
 
-Core2/32x32/properties_h.png
-----field----
-field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
-name: __Masters
-key: __masters
-content-length: 38
-
-{BDC41FDD-A3AC-4B69-A0BA-471C425CB083}
+Sitecore.Sharedsource.ItemNamingRules.Conditions.HasLayoutDetailsForAnyDevice, Sitecore.Sharedsource.ItemNamingRules
 ----version----
 language: da
 version: 1
-revision: b77a5db4-ec2a-425f-8f1e-4c1a7b2ef61e
+revision: 27fcdbee-54e5-4a0b-941b-b5e3472e208c
 
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 75
+
+når elementet er et overliggende element til [itemid,Tree,,a specific item]
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 6
+content-length: 25
 
-Regler
+Overordnet eller sig selv
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -48,7 +48,7 @@ name: __Created
 key: __created
 content-length: 34
 
-20130424T125743:635024050634900210
+20130424T124331:635024042114205804
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b77a5db4-ec2a-425f-8f1e-4c1a7b2ef61e
+27fcdbee-54e5-4a0b-941b-b5e3472e208c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130424T125743:635024050634900210
+20131205T123440:635218436800703018
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -80,15 +80,22 @@ sitecore\admin
 ----version----
 language: de-DE
 version: 1
-revision: 90b7505c-0c77-45c6-a195-dfabeb3103a3
+revision: a5737268-ee11-4cdd-93cb-09cd2aee699a
 
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 69
+
+wo das Item Vorgänger ist eines [itemid,Tree,,spezifischen Items] ist
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 5
+content-length: 21
 
-Regel
+Vorgänger oder Selbst
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -102,7 +109,7 @@ name: __Created
 key: __created
 content-length: 34
 
-20130424T132020:635024064204199660
+20130424T130748:635024056681957591
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -116,14 +123,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-90b7505c-0c77-45c6-a195-dfabeb3103a3
+a5737268-ee11-4cdd-93cb-09cd2aee699a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130424T132020:635024064204199660
+20131205T123440:635218436800623010
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -134,8 +141,15 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: bb81d885-3934-4c82-a04b-cedd0e647d07
+revision: a8ebb3b0-f99e-4058-8493-027598c03cad
 
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 47
+
+when the item has layout details for any device
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -149,7 +163,7 @@ name: __Created
 key: __created
 content-length: 15
 
-20080923T083133
+20080923T083922
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -163,14 +177,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-bb81d885-3934-4c82-a04b-cedd0e647d07
+a8ebb3b0-f99e-4058-8493-027598c03cad
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20080923T084029:633577560295987205
+20131205T123712:635218438324725405
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -181,15 +195,22 @@ sitecore\admin
 ----version----
 language: ja-JP
 version: 1
-revision: 8c9a4820-cad9-4d0e-9bac-f278920f3280
+revision: d23bedcf-1b82-45c1-afe9-f928f1be0ba2
 
+----field----
+field: {AF321234-4EB9-4EF5-9197-65903351939C}
+name: Text
+key: text
+content-length: 50
+
+条件： （アイテム Path） アイテムが [itemid,Tree,,特定のアイテム] の親の場合
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 3
+content-length: 6
 
-ルール
+親または自身
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -203,7 +224,7 @@ name: __Created
 key: __created
 content-length: 34
 
-20130424T134832:635024081127577928
+20130424T133050:635024070501248514
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -217,14 +238,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8c9a4820-cad9-4d0e-9bac-f278920f3280
+d23bedcf-1b82-45c1-afe9-f928f1be0ba2
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130424T134832:635024081127577928
+20131205T123440:635218436800573005
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

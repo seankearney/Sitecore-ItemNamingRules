@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {1057C235-C5C0-4EB7-8F77-EA51EB9E20EE}
+id: {F222940D-920D-476A-BE82-CC950449DC3A}
 database: master
-path: /sitecore/system/Settings/Rules
-parent: {087E1EA5-6280-4575-9E70-85B588DB91B2}
-name: Rules
+path: /sitecore/system/Settings/Rules/Definitions
+parent: {1057C235-C5C0-4EB7-8F77-EA51EB9E20EE}
+name: Definitions
 master: {00000000-0000-0000-0000-000000000000}
 template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
 templatekey: Folder
@@ -13,28 +13,28 @@ templatekey: Folder
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
-content-length: 28
+content-length: 23
 
-Core2/32x32/properties_h.png
+People/32x32/wrench.png
 ----field----
-field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
-name: __Masters
-key: __masters
-content-length: 38
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
 
-{BDC41FDD-A3AC-4B69-A0BA-471C425CB083}
+50
 ----version----
 language: da
 version: 1
-revision: b77a5db4-ec2a-425f-8f1e-4c1a7b2ef61e
+revision: 89916b24-c291-4fcf-b74e-2950934ed689
 
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 6
+content-length: 12
 
-Regler
+Definitioner
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -48,7 +48,7 @@ name: __Created
 key: __created
 content-length: 34
 
-20130424T125743:635024050634900210
+20130926T185146:635158183068882666
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b77a5db4-ec2a-425f-8f1e-4c1a7b2ef61e
+89916b24-c291-4fcf-b74e-2950934ed689
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130424T125743:635024050634900210
+20130926T185146:635158183068882666
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -80,15 +80,15 @@ sitecore\admin
 ----version----
 language: de-DE
 version: 1
-revision: 90b7505c-0c77-45c6-a195-dfabeb3103a3
+revision: 21a9c040-f7fb-46c8-8794-e4eb092dc3e9
 
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 5
+content-length: 12
 
-Regel
+Definitionen
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -102,7 +102,7 @@ name: __Created
 key: __created
 content-length: 34
 
-20130424T132020:635024064204199660
+20130926T191450:635158196905593329
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -116,14 +116,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-90b7505c-0c77-45c6-a195-dfabeb3103a3
+21a9c040-f7fb-46c8-8794-e4eb092dc3e9
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130424T132020:635024064204199660
+20130926T191450:635158196905593329
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -134,7 +134,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: bb81d885-3934-4c82-a04b-cedd0e647d07
+revision: 47b897f6-edce-4b38-80a5-32eaa279177b
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -149,7 +149,7 @@ name: __Created
 key: __created
 content-length: 15
 
-20080923T083133
+20120716T152539
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -163,14 +163,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-bb81d885-3934-4c82-a04b-cedd0e647d07
+47b897f6-edce-4b38-80a5-32eaa279177b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20080923T084029:633577560295987205
+20120905T163328:634824596083044289
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -181,15 +181,15 @@ sitecore\admin
 ----version----
 language: ja-JP
 version: 1
-revision: 8c9a4820-cad9-4d0e-9bac-f278920f3280
+revision: d82077c9-0eaf-4920-9acf-32caa54c6b5b
 
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 3
+content-length: 2
 
-ルール
+定義
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -203,7 +203,7 @@ name: __Created
 key: __created
 content-length: 34
 
-20130424T134832:635024081127577928
+20130926T193517:635158209170229720
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -217,14 +217,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8c9a4820-cad9-4d0e-9bac-f278920f3280
+d82077c9-0eaf-4920-9acf-32caa54c6b5b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130424T134832:635024081127577928
+20130926T193517:635158209170229720
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

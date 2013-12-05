@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {1AEE16C7-F2C1-4C27-9790-63A4F0E3D2AF}
+id: {DA428AF5-7D24-42BF-841E-B9E1A3460DDD}
 database: master
-path: /sitecore/system/Settings/Rules/Common/Conditions/Presentation/Has Layout Details For Any Device
-parent: {C14D9106-92E0-4F8C-9728-9FDD99CB8EBA}
-name: Has Layout Details For Any Device
+path: /sitecore/system/Settings/Rules/Definitions/Elements/Custom/Has Layout Details For Default Device
+parent: {79DFCC52-A071-4411-AF49-C0BD6DCAAE77}
+name: Has Layout Details For Default Device
 master: {00000000-0000-0000-0000-000000000000}
 template: {F0D16EEE-3A05-4E43-A082-795A32B873C0}
 templatekey: Condition
@@ -13,13 +13,13 @@ templatekey: Condition
 field: {AB51C8B2-F0E1-4471-9AAE-CC080D774923}
 name: Type
 key: type
-content-length: 116
+content-length: 120
 
-Sitecore.Sharedsource.ItemNamingRules.Conditions.HasLayoutDetailsForAnyDevice, Sitecore.Sharedsource.ItemNamingRules
+Sitecore.Sharedsource.ItemNamingRules.Conditions.HasLayoutDetailsForDefaultDevice, Sitecore.Sharedsource.ItemNamingRules
 ----version----
 language: da
 version: 1
-revision: 071bbcb0-4c7d-43b6-8c89-f821eefa112b
+revision: e0ece6c2-c7cf-4b2b-9fe9-228256faa685
 
 ----field----
 field: {AF321234-4EB9-4EF5-9197-65903351939C}
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-071bbcb0-4c7d-43b6-8c89-f821eefa112b
+e0ece6c2-c7cf-4b2b-9fe9-228256faa685
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130424T124331:635024042115299372
+20131205T123440:635218436800933041
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -80,7 +80,7 @@ sitecore\admin
 ----version----
 language: de-DE
 version: 1
-revision: 0e6a549e-443b-452d-8b53-80a7db5c59d3
+revision: 724fc64a-a842-42a2-9bce-eafcdccaa0e0
 
 ----field----
 field: {AF321234-4EB9-4EF5-9197-65903351939C}
@@ -123,14 +123,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-0e6a549e-443b-452d-8b53-80a7db5c59d3
+724fc64a-a842-42a2-9bce-eafcdccaa0e0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130424T130748:635024056682426230
+20131205T123440:635218436800873035
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -141,7 +141,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 3943205f-8d98-4cf7-8cfd-0772d6108a32
+revision: 21cdcbd9-1e42-49d1-be20-23c84e9181cb
 
 ----field----
 field: {AF321234-4EB9-4EF5-9197-65903351939C}
@@ -177,25 +177,25 @@ name: __Revision
 key: __revision
 content-length: 36
 
-3943205f-8d98-4cf7-8cfd-0772d6108a32
+21cdcbd9-1e42-49d1-be20-23c84e9181cb
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130625T111040:635077554404116178
+20131205T123712:635218438326695602
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\Admin
+sitecore\admin
 ----version----
 language: ja-JP
 version: 1
-revision: ec96697d-ef0c-4ac2-98cd-05d5bef47ff1
+revision: a0dd86e5-f825-4fec-b97b-82b1e7cd21a9
 
 ----field----
 field: {AF321234-4EB9-4EF5-9197-65903351939C}
@@ -238,14 +238,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ec96697d-ef0c-4ac2-98cd-05d5bef47ff1
+a0dd86e5-f825-4fec-b97b-82b1e7cd21a9
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130424T133050:635024070502342075
+20131205T123440:635218436800823030
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

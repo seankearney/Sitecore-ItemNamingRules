@@ -2,8 +2,8 @@
 version: 1
 id: {94D909C0-934D-4E66-905E-6604615F9800}
 database: master
-path: /sitecore/system/Settings/Rules/Common/Actions/Lowercase Item Name
-parent: {5495ED07-AB27-4864-9ADF-5B1A831A7FB3}
+path: /sitecore/system/Settings/Rules/Definitions/Elements/Custom/Lowercase Item Name
+parent: {79DFCC52-A071-4411-AF49-C0BD6DCAAE77}
 name: Lowercase Item Name
 master: {00000000-0000-0000-0000-000000000000}
 template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
@@ -19,7 +19,7 @@ Sitecore.Sharedsource.ItemNamingRules.Actions.Lowercase, Sitecore.Sharedsource.I
 ----version----
 language: en
 version: 1
-revision: dc162d57-2430-4289-a956-14c25be8d828
+revision: 9b78d3b8-52e6-449c-b83b-9dec92a5b7cc
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
@@ -55,18 +55,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-dc162d57-2430-4289-a956-14c25be8d828
+9b78d3b8-52e6-449c-b83b-9dec92a5b7cc
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20130625T114112:635077572720897673
+20131205T123712:635218438327205653
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\Admin
+sitecore\admin
