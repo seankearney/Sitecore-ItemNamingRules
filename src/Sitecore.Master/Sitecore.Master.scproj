@@ -46,14 +46,12 @@
     <InstallSitecoreConnector>False</InstallSitecoreConnector>
     <PackageAuthor>Hedgehog Development</PackageAuthor>
     <PackagePublisher>Hedgehog Development</PackagePublisher>
-    <PackageVersion>1.2</PackageVersion>
-    <PackageReadme>**Private Sitecore 7.1.130926 Build**
+    <PackageVersion>1.1.0</PackageVersion>
+    <PackageReadme>1.1.0+sitecore.7.1.130926
 
 The ItemNamingRules project provides conditions and actions for the rules engine to automate item name conventions. You can use the ItemNamingRules project to apply different item naming rules in different branches of the content tree. For more information about the rules engine, see the Rules Engine Cookbook.
 
-            https://github.com/seankearney/Sitecore-ItemNamingRules
-
-</PackageReadme>
+            https://github.com/seankearney/Sitecore-ItemNamingRules</PackageReadme>
     <SitecoreAssemblyPath>..\..\lib\</SitecoreAssemblyPath>
     <GeneratePackage>True</GeneratePackage>
     <SeperateFilesAndItems>False</SeperateFilesAndItems>
