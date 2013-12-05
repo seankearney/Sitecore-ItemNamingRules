@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {94D909C0-934D-4E66-905E-6604615F9800}
+id: {3E76C52C-133D-40F3-8B38-421F56E1019A}
 database: master
-path: /sitecore/system/Settings/Rules/Definitions/Elements/Custom/Lowercase Item Name
-parent: {79DFCC52-A071-4411-AF49-C0BD6DCAAE77}
-name: Lowercase Item Name
+path: /sitecore/system/Settings/Rules/Definitions/Elements/Item Information/Ensure Item Name is Unique
+parent: {58350CFB-7E3B-4F29-B78C-880744E6A299}
+name: Ensure Item Name is Unique
 master: {00000000-0000-0000-0000-000000000000}
 template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
 templatekey: Action
@@ -13,21 +13,21 @@ templatekey: Action
 field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
 name: Type
 key: type
-content-length: 94
+content-length: 97
 
-Sitecore.Sharedsource.ItemNamingRules.Actions.Lowercase, Sitecore.Sharedsource.ItemNamingRules
+Sitecore.Sharedsource.ItemNamingRules.Actions.EnsureUnique, Sitecore.Sharedsource.ItemNamingRules
 ----version----
 language: en
 version: 1
-revision: 9b78d3b8-52e6-449c-b83b-9dec92a5b7cc
+revision: 0b78b29d-47be-4f69-a9f2-d479bbc0294c
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
 name: Text
 key: text
-content-length: 17
+content-length: 89
 
-lowercase letters
+ensure item name is unique and does not exceed [MaxLength,int,,maximum length] characters
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-9b78d3b8-52e6-449c-b83b-9dec92a5b7cc
+0b78b29d-47be-4f69-a9f2-d479bbc0294c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20131205T123712:635218438327205653
+20131205T132553:635218467531245765
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

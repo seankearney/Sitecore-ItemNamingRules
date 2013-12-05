@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {A951E10C-1D0E-4024-BA51-61D19C6F64ED}
+id: {94D909C0-934D-4E66-905E-6604615F9800}
 database: master
-path: /sitecore/system/Settings/Rules/Definitions/Elements/Custom/Replace Invalid Characters in Item Name
-parent: {79DFCC52-A071-4411-AF49-C0BD6DCAAE77}
-name: Replace Invalid Characters in Item Name
+path: /sitecore/system/Settings/Rules/Definitions/Elements/Item Information/Lowercase Item Name
+parent: {58350CFB-7E3B-4F29-B78C-880744E6A299}
+name: Lowercase Item Name
 master: {00000000-0000-0000-0000-000000000000}
 template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
 templatekey: Action
@@ -13,21 +13,21 @@ templatekey: Action
 field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
 name: Type
 key: type
-content-length: 109
+content-length: 94
 
-Sitecore.Sharedsource.ItemNamingRules.Actions.ReplaceInvalidCharacters, Sitecore.Sharedsource.ItemNamingRules
+Sitecore.Sharedsource.ItemNamingRules.Actions.Lowercase, Sitecore.Sharedsource.ItemNamingRules
 ----version----
 language: en
 version: 1
-revision: 6c1dc6e7-51d5-428f-b3fe-aca7532be4dc
+revision: 72df0966-78d3-4b8f-8211-9e7743408fbb
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
 name: Text
 key: text
-content-length: 154
+content-length: 17
 
-replace characters in the item name that do not match the regular expression [MatchPattern,Text,,pattern] with [ReplaceWith,Text,,this character sequence]
+lowercase letters
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-6c1dc6e7-51d5-428f-b3fe-aca7532be4dc
+72df0966-78d3-4b8f-8211-9e7743408fbb
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20131205T123712:635218438327305663
+20131205T132611:635218467715074146
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

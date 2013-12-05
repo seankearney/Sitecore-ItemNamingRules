@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {03F37A5C-C7C5-4C4D-93FD-84C40A3E8250}
+id: {A951E10C-1D0E-4024-BA51-61D19C6F64ED}
 database: master
-path: /sitecore/system/Settings/Rules/Definitions/Elements/Custom/Ensure Minimum Length of Item Name
-parent: {79DFCC52-A071-4411-AF49-C0BD6DCAAE77}
-name: Ensure Minimum Length of Item Name
+path: /sitecore/system/Settings/Rules/Definitions/Elements/Item Information/Replace Invalid Characters in Item Name
+parent: {58350CFB-7E3B-4F29-B78C-880744E6A299}
+name: Replace Invalid Characters in Item Name
 master: {00000000-0000-0000-0000-000000000000}
 template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
 templatekey: Action
@@ -13,21 +13,21 @@ templatekey: Action
 field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
 name: Type
 key: type
-content-length: 104
+content-length: 109
 
-Sitecore.Sharedsource.ItemNamingRules.Actions.EnsureMinimumLength, Sitecore.Sharedsource.ItemNamingRules
+Sitecore.Sharedsource.ItemNamingRules.Actions.ReplaceInvalidCharacters, Sitecore.Sharedsource.ItemNamingRules
 ----version----
 language: en
 version: 1
-revision: e3428f4c-72ac-4c08-a1bd-c5589b6e310f
+revision: 97790f3c-1822-4955-aeb7-ddc3f6780ebd
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
 name: Text
 key: text
-content-length: 83
+content-length: 154
 
-ensure a minimum name length by appending characters from [DefaultName,Text,,index]
+replace characters in the item name that do not match the regular expression [MatchPattern,Text,,pattern] with [ReplaceWith,Text,,this character sequence]
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-e3428f4c-72ac-4c08-a1bd-c5589b6e310f
+97790f3c-1822-4955-aeb7-ddc3f6780ebd
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20131205T123712:635218438327095642
+20131205T132622:635218467822544892
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

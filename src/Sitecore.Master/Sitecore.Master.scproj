@@ -98,16 +98,6 @@ The ItemNamingRules project provides conditions and actions for the rules engine
       <ItemDeployment>DeployOnce</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\Rules\Definitions\Elements\Custom\Ensure Item Name is Unique.item">
-      <Icon>/temp/IconCache/Software/32x32/shape_rectangle.png</Icon>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\Rules\Definitions\Elements\Custom\Ensure Minimum Length of Item Name.item">
-      <Icon>/temp/IconCache/Software/32x32/shape_rectangle.png</Icon>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
-    </SitecoreItem>
     <SitecoreItem Include="sitecore\system\Settings\Rules\Definitions\Elements\Custom\Has Layout Details For Any Device.item">
       <Icon>/temp/IconCache/Software/32x32/shape_rhomb.png</Icon>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
@@ -118,12 +108,27 @@ The ItemNamingRules project provides conditions and actions for the rules engine
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\Rules\Definitions\Elements\Custom\Lowercase Item Name.item">
+    <SitecoreItem Include="sitecore\system\Settings\Rules\Definitions\Elements\Item Information.item">
+      <Icon>/temp/IconCache/core2/32x32/flow_chart.png</Icon>
+      <ItemDeployment>DeployOnce</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Settings\Rules\Definitions\Elements\Item Information\Ensure Item Name is Unique.item">
       <Icon>/temp/IconCache/Software/32x32/shape_rectangle.png</Icon>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\Rules\Definitions\Elements\Custom\Replace Invalid Characters in Item Name.item">
+    <SitecoreItem Include="sitecore\system\Settings\Rules\Definitions\Elements\Item Information\Ensure Minimum Length of Item Name.item">
+      <Icon>/temp/IconCache/Software/32x32/shape_rectangle.png</Icon>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Settings\Rules\Definitions\Elements\Item Information\Lowercase Item Name.item">
+      <Icon>/temp/IconCache/Software/32x32/shape_rectangle.png</Icon>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Settings\Rules\Definitions\Elements\Item Information\Replace Invalid Characters in Item Name.item">
       <Icon>/temp/IconCache/Software/32x32/shape_rectangle.png</Icon>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>

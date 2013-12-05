@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {3E76C52C-133D-40F3-8B38-421F56E1019A}
+id: {03F37A5C-C7C5-4C4D-93FD-84C40A3E8250}
 database: master
-path: /sitecore/system/Settings/Rules/Definitions/Elements/Custom/Ensure Item Name is Unique
-parent: {79DFCC52-A071-4411-AF49-C0BD6DCAAE77}
-name: Ensure Item Name is Unique
+path: /sitecore/system/Settings/Rules/Definitions/Elements/Item Information/Ensure Minimum Length of Item Name
+parent: {58350CFB-7E3B-4F29-B78C-880744E6A299}
+name: Ensure Minimum Length of Item Name
 master: {00000000-0000-0000-0000-000000000000}
 template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
 templatekey: Action
@@ -13,21 +13,21 @@ templatekey: Action
 field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
 name: Type
 key: type
-content-length: 97
+content-length: 104
 
-Sitecore.Sharedsource.ItemNamingRules.Actions.EnsureUnique, Sitecore.Sharedsource.ItemNamingRules
+Sitecore.Sharedsource.ItemNamingRules.Actions.EnsureMinimumLength, Sitecore.Sharedsource.ItemNamingRules
 ----version----
 language: en
 version: 1
-revision: 69005860-4a25-4c1d-8bed-dd9d4ed4c70b
+revision: 2bdaa8f9-94f9-4da4-9829-73d401e99d98
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
 name: Text
 key: text
-content-length: 89
+content-length: 83
 
-ensure item name is unique and does not exceed [MaxLength,int,,maximum length] characters
+ensure a minimum name length by appending characters from [DefaultName,Text,,index]
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-69005860-4a25-4c1d-8bed-dd9d4ed4c70b
+2bdaa8f9-94f9-4da4-9829-73d401e99d98
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20131205T123712:635218438326985631
+20131205T132600:635218467609113551
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
