@@ -83,26 +83,6 @@ The ItemNamingRules project provides conditions and actions for the rules engine
       <ItemDeployment>DeployOnce</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\Rules\Common.item">
-      <Icon>/temp/IconCache/Applications/16x16/folder.png</Icon>
-      <ItemDeployment>DeployOnce</ItemDeployment>
-      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\Rules\Common\Actions.item">
-      <Icon>/temp/IconCache/Applications/16x16/folder.png</Icon>
-      <ItemDeployment>DeployOnce</ItemDeployment>
-      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\Rules\Common\Conditions.item">
-      <Icon>/temp/IconCache/Applications/16x16/folder.png</Icon>
-      <ItemDeployment>DeployOnce</ItemDeployment>
-      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\Rules\Common\Conditions\Presentation.item">
-      <Icon>/temp/IconCache/Applications/16x16/folder.png</Icon>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-    </SitecoreItem>
     <SitecoreItem Include="sitecore\system\Settings\Rules\Definitions.item">
       <Icon>/temp/IconCache/People/32x32/wrench.png</Icon>
       <ItemDeployment>DeployOnce</ItemDeployment>
